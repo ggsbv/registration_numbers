@@ -1,0 +1,81 @@
+body {
+  font-family: Lato;
+  background-color: grey;
+  text-align: center;
+}
+
+header {
+
+}
+
+h1 {
+  text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-right: 0.9em;
+  padding-bottom: 1em;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  /* padding: 1em; */
+  /* position: relative; */
+  background-color: yellow;
+  border: solid black 10px;
+  border-radius: 15px;
+  padding: 0em;
+  /* font-stretch: condensed; */
+  /* font-size: 15px; */
+  /* */
+  font-size: 3em;
+  margin: 0.5em 9em 0.5em 9em;
+  font-weight: bolder;
+  list-style-type: none;
+}
+
+p {
+
+}
+
+#inputRegNumDiv {
+  margin: 1em;
+}
+
+input {
+  background-color: #616060;
+  color: whitesmoke;
+  border-color: yellow;
+  border-radius: 5px;
+  padding: 0.7em 1em 0.7em 1em;
+  margin-right: 0.5em;
+}
+
+button {
+  background-color: yellow;
+  border-color: black;
+  border-radius: 5px;
+}
+
+select {
+  margin-top: 1.3em;
+  margin-left: 1em;
+}
+
+.wrapper {
+  background-color: rgb(78, 76, 76);
+  margin: 0em -0.5em 0em -0.5em;
+  padding: 1em 0em 1em 0em;
+}
+
+#oRegNum {
+  font-size: -webkit-xxx-large;
+}
+
+#fromTown {
+  display: -webkit-inline-box;
+}
